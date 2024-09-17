@@ -1,0 +1,98 @@
+
+.previewcard {
+    display: block;
+    padding: 1.5em;
+    background-color: #e3efff;
+    border: solid 1px #e0ebf9;
+    border-radius: 20px;
+    transition: ease-in-out .4s;
+}
+
+#previewcontent {
+    display: grid;
+    row-gap: 10px;
+}
+
+.previewcard {
+    display: block;
+    padding: 1.5em;
+    background-color: #e3efff;
+    border: solid 1px #e0ebf9;
+    border-radius: 20px;
+    transition: ease-in-out .4s;
+}
+
+#previewname {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#previewtype {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#previewacctype {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#previewconstitution_div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#previewsub_constitution_div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+#previewSchemetype {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#previewothers_doc{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
+#previewMandatory_doc{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
+#previewspecial_doc{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
+#previewcontent {
+    display: grid;
+    row-gap: 10px;
+}
+#previewdoc{
+    display: grid;
+    row-gap: 10px;
+}
+h4{
+    text-decoration: underline;
+}
+ul {
+    margin: 0;
+    padding:0;
+    list-style-type: disclosure-closed;
+}
+#spanApp {
+    font-weight: bold;
+    font-size: 20px;
+}
+h3 {
+    text-decoration: underline;
+}
+#note_id{
+    font-weight: bold;
+}
+
+#previewotherpoints_doc #other_points_ul  {
+    list-style-type: disc;
+    margin-left: 30px;
+}
